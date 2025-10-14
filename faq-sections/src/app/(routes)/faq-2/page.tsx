@@ -13,8 +13,8 @@ import { motion } from "framer-motion";
 const Faq = () => {
 
     return (
-        <section className=" w-full min-h-screen flex items-center justify-center bg-white py-40">
-            <div className=" w-full p-1.5 bg-secondary border rounded-xl max-w-2xl mx-auto">
+        <section className=" w-full min-h-screen flex items-center justify-center bg-white">
+            <div className=" w-full p-1.5 bg-secondary border rounded-xl max-w-2xl mx-auto mt-28 mb-12">
                 <Accordion type="single" className=" flex flex-col gap-1.5" collapsible>
                     <motion.div
                         variants={containerVariants}
